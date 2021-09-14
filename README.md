@@ -1,4 +1,4 @@
-## project #1 Responsive Club Website
+## project #1 Responsive Club Website.
 
 ## subject that interests
 
