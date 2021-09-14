@@ -2,12 +2,12 @@
 
 ## subject that interests
 
-- [] Video games.
-- [] Amateur football.
-- [] Gardening.
-- [] Raising llamas.
+- [ ] Video games.
+- [ ] Amateur football.
+- [ ] Gardening.
+- [ ] Raising llamas.
 
 ## Skills demostrated
 
-- [] CSS.
-- [] HTML.
+- [ ] CSS.
+- [ ] HTML.
