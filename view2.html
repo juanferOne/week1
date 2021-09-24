@@ -6,15 +6,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/menu.css" />
-    <title>Second View responsive web design</title>
+    <title>second View responsive web design</title>
   </head>
   <body>
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
+    <header class="banner">
+      <img
+        src="https://www.pinclipart.com/picdir/big/238-2387582_futbol-portero-deportes-jpg-portero-logo-ftbol-png.png"
+        alt="Banner"
+      />
+    </header>
+    <div class="container_menu">
+      <div class="menu-wrap">
+        <input type="checkbox" class="toggler" />
+        <div class="hamburger"><div></div></div>
+        <div class="main_menu">
+          <ul>
+            <li class="menu_item">
+              <a href="#">
+                <img
+                  src="https://image.flaticon.com/icons/png/512/536/536056.png"
+                  alt="icono"
+                />
+                Campeonatos</a
+              >
+            </li>
+            <li class="menu_item">
+              <a href="#">
+                <img
+                  src="https://image.flaticon.com/icons/png/512/536/536056.png"
+                  alt="icono"
+                />
+                Estadisticas</a
+              >
+            </li>
+            <li class="menu_item">
+              <a href="#">
+                <img
+                  src="https://image.flaticon.com/icons/png/512/536/536056.png"
+                  alt="icono"
+                />
+                Calendario
+              </a>
+            </li>
+            <li class="menu_item">
+              <a href="#">
+                <img
+                  src="https://image.flaticon.com/icons/png/512/536/536056.png"
+                  alt="icono"
+                />
+                Jugador del mes</a
+              >
+            </li>
+            <li class="menu_item">
+              <a href="">
+                <img
+                  src="https://image.flaticon.com/icons/png/512/536/536056.png"
+                  alt="icono"
+                />
+                Noticias</a
+              >
+            </li>
+            <li class="menu_item">
+              <a href="">
+                <img
+                  src="https://image.flaticon.com/icons/png/512/536/536056.png"
+                  alt="icono"
+                />
+                Contacto</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container_all_inputText">
+        <form action="">
+          <div class="container_input">
+            <div class="label">
+              <label for="category">Categoria:</label>
+              <select name="" id="category">
+                <option value="1">Primera</option>
+                <option value="2">Segunda</option>
+                <option value="3">Tercera</option>
+              </select>
+            </div>
+            <div class="label">
+              <label for="continent">Continente:</label>
+              <select name="" id="continent">
+                <option value="america">America</option>
+                <option value="europa">Europa</option>
+                <option value="asia">Asia</option>
+              </select>
+            </div>
+          </div>
+          <div class="container_input">
+            <div class="label">
+              <label for="gen">Genero:</label>
+              <select name="" id="category">
+                <option value="m">Masculino</option>
+                <option value="f">Femenino</option>
+              </select>
+            </div>
+            <div class="label">
+              <label for="position">Posición:</label>
+              <select name="" id="position">
+                <option value="forward">Delantero</option>
+                <option value="middle">Medio campo</option>
+                <option value="Defender">Defensa</option>
+                <option value="goalkeeper">Portero</option>
+              </select>
+            </div>
+          </div>
+          <div class="container_input">
+            <div class="label">
+              <label for="injury">Lesionado:</label>
+              <select name="" id="injury">
+                <option value="yes">Si</option>
+                <option value="no">No</option>
+              </select>
+            </div>
+            <div class="label">
+              <label for="lef_right">Diestro o zurdo</label>
+              <select name="" id="lef_right">
+                <option value="america">Diestro</option>
+                <option value="europa">Zurdo</option>
+              </select>
+            </div>
+          </div>
+          <input type="submit" value="Submit" />
+          <input type="reset" value="reset" />
+        </form>
+      </div>
+    </div>
+
+    <footer><address>&#64;SoftwareOne</address></footer>
   </body>
 </html>
